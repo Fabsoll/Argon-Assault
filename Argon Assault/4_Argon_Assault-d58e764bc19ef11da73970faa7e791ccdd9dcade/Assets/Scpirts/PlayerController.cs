@@ -4,34 +4,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class Player : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     [SerializeField] float xSpeed = 4f;
     [SerializeField] float xRange = 5f;
-
     [SerializeField] float ySpeed = 3f;
     [SerializeField] float yRange = 2f;
-
     [SerializeField] float positionPitchFacor = -5f;
     [SerializeField] float controlPitchFacor = -15f;
-
     [SerializeField] float positionYawFacor = 5f;
-
     [SerializeField] float controlRollFacor = 15f;
 
-    float xThrow, yThrow;
+    bool isControlEnabled = true;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    float xThrow, yThrow;
 
     // Update is called once per frame
     void Update()
     {
-        ProcessTranslation();
-        ProcessRotation();
+        if (isControlEnabled)
+        {
+            ProcessTranslation();
+            ProcessRotation();
+        }
+        
     }
 
     private void ProcessRotation()
@@ -56,5 +52,10 @@ public class Player : MonoBehaviour
         float yClampedPos = Mathf.Clamp(yRawPos, -yRange, yRange);
 
         transform.localPosition = new Vector3(xClampedPos, yClampedPos, transform.localPosition.z);
+    }
+
+    private void OnPlayerDeath()
+    {
+        isControlEnabled = false;
     }
 }
