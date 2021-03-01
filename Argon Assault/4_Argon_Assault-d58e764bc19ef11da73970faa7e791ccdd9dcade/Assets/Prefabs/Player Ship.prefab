@@ -151,6 +151,9 @@ MonoBehaviour:
   controlPitchFacor: -15
   positionYawFacor: 5
   controlRollFacor: 20
+  guns:
+  - {fileID: 4509169228483334315}
+  - {fileID: 8665728665184597950}
 --- !u!1001 &317884953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -322,10 +325,16 @@ PrefabInstance:
     - target: {fileID: 8181129870800019499, guid: 89af801af61988d4b968d9e31c51da82,
         type: 3}
       propertyPath: m_Name
-      value: LaserBullets (1)
+      value: GunLeft
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89af801af61988d4b968d9e31c51da82, type: 3}
+--- !u!1 &8665728665184597950 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8181129870800019499, guid: 89af801af61988d4b968d9e31c51da82,
+    type: 3}
+  m_PrefabInstance: {fileID: 705917300655527829}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5169118571642832842 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5654139586885275743, guid: 89af801af61988d4b968d9e31c51da82,
@@ -412,10 +421,16 @@ PrefabInstance:
     - target: {fileID: 8181129870800019499, guid: 89af801af61988d4b968d9e31c51da82,
         type: 3}
       propertyPath: m_Name
-      value: LaserBullets
+      value: GunRight
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89af801af61988d4b968d9e31c51da82, type: 3}
+--- !u!1 &4509169228483334315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8181129870800019499, guid: 89af801af61988d4b968d9e31c51da82,
+    type: 3}
+  m_PrefabInstance: {fileID: 5700149480326721664}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &102868380515901663 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5654139586885275743, guid: 89af801af61988d4b968d9e31c51da82,

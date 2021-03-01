@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 6
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 5b21c6a8ce40f9641bd1204324b90b2c, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: b8f20d5ca50d16143afc11f5e4af6fc1, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.11792358, g: 0.15363058, b: 0.116854526, a: 1}
+  m_IndirectSpecularColor: {r: 0.2996273, g: 0.25062415, b: 0.20409787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -216,8 +216,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1 &115611922
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,8 +343,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &178145110
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -436,8 +440,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1 &231099006
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,8 +677,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &413759049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -766,8 +774,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!850595691 &472612936
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -922,8 +932,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &594612891
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1086,8 +1098,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &716218038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1181,8 +1195,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &733136777
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1276,8 +1292,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1 &739114869
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,7 +1391,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3c46e48689e8f6947af1ba1d63a94225, type: 2}
+  - {fileID: 2100000, guid: 5e0bcded4f53570459b3c8ff76a88d69, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1496,8 +1514,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1 &782622551
 GameObject:
   m_ObjectHideFlags: 0
@@ -1684,8 +1704,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &814750366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1779,8 +1801,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!4 &815658514 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4765256838916578, guid: 6b2f6692602716a49bcce1133bba67e3,
@@ -1880,8 +1904,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1 &975424849
 GameObject:
   m_ObjectHideFlags: 0
@@ -2004,7 +2030,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94337e613cc3b7149b92962da89ae3df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scorePerHit: 12
 --- !u!1001 &1025983710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2098,8 +2123,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1 &1129540289
 GameObject:
   m_ObjectHideFlags: 0
@@ -2223,8 +2250,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &1185681480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2318,8 +2347,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1 &1204622893
 GameObject:
   m_ObjectHideFlags: 0
@@ -2443,8 +2474,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &1214480132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2538,8 +2571,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &1302239971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2633,8 +2668,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1 &1347484532
 GameObject:
   m_ObjectHideFlags: 0
@@ -2844,10 +2881,10 @@ MonoBehaviour:
   circuit: {fileID: 231099008}
   lookAheadForTargetOffset: 0.25
   lookAheadForTargetFactor: 0.1
-  lookAheadForSpeedOffset: 10
-  lookAheadForSpeedFactor: 0.2
+  lookAheadForSpeedOffset: 0.01
+  lookAheadForSpeedFactor: 0.01
   progressStyle: 0
-  pointToPointThreshold: 4
+  pointToPointThreshold: 0.01
   target: {fileID: 1369191577}
 --- !u!1001 &1378215248
 PrefabInstance:
@@ -2942,8 +2979,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &1548371854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3037,8 +3076,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &1554074876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3132,8 +3173,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &1608876520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3227,8 +3270,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1 &1738070746
 GameObject:
   m_ObjectHideFlags: 0
@@ -3445,8 +3490,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!4 &1902031453 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7573796350549580610, guid: 27d83dfc1ebc1274fa43e07b59c1005a,
@@ -3546,8 +3593,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &1932508442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3641,8 +3690,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &1945425155
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3736,8 +3787,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &1964412767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3831,8 +3884,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &1970270323
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3926,8 +3981,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1001 &1986828832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4021,8 +4078,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1 &2003587497
 GameObject:
   m_ObjectHideFlags: 0
@@ -4238,8 +4297,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1 &2047010434
 GameObject:
   m_ObjectHideFlags: 0
@@ -4365,8 +4426,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce780f8cda3d8a48819560ea2823d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 5538115325878873459, guid: 9b250e55b7be66a49af61e676721df5a, type: 3}
   parent: {fileID: 2003587498}
+  maxHits: 10
 --- !u!1 &2082455008
 GameObject:
   m_ObjectHideFlags: 0
@@ -4473,6 +4536,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2047010435}
     m_Modifications:
+    - target: {fileID: 7573796350549580608, guid: 27d83dfc1ebc1274fa43e07b59c1005a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5e0bcded4f53570459b3c8ff76a88d69, type: 2}
     - target: {fileID: 7573796350549580610, guid: 27d83dfc1ebc1274fa43e07b59c1005a,
         type: 3}
       propertyPath: m_RootOrder
